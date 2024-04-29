@@ -6,14 +6,21 @@ Description: Architecture & Interior Html Template
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
+.general-img {
+  background-image: url(assets/images/backgrounds/upea.jpg);
+  background-size: cover; /* Para ajustar el tamaño de la imagen al contenedor */
+  background-position: center; /* Para centrar la imagen dentro del contenedor */
+  height: 100vh;
+  background-size:cover;
+}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #A6A182;
+  --theme: #c9e9e7;
   --theme-2: #A6A182;
-  --header: #000000;
+  --header: #3acec6;
   --base: #00813D;
   --text: #54595F;
   --text2: #bfbfbf;
@@ -26,10 +33,18 @@ Version: 1.0.0
   ---color-gradient-2: linear-gradient(to left, #ff8662, #fc9860, #ff7269, #fd4a81, #ff5e73);
   ---box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.05);
 }
+/* resources/sass/app.scss */
+
+.bg-gray-100 {
+  background-image: url('/assets/img/hero/01.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .theme-btn {
-  background-color: var(--theme);
-  color: var(--white);
+  background-color: #131414;
+  color: #eef5f4;
+  border: 1px solid #3acec6 var(--theme);
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
@@ -38,7 +53,7 @@ Version: 1.0.0
   letter-spacing: 1.2px;
   line-height: 1;
   text-transform: capitalize;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s #d9e4e3 ease-in-out;
   position: relative;
   z-index: 1;
   border-radius: 5px;
@@ -207,7 +222,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
   padding: 0;
-  color: var(--header);
+  color: #080808; /*var(--header);*/
   text-transform: capitalize;
   transition: all 0.4s ease-in-out;
 }
@@ -270,7 +285,7 @@ a {
   text-decoration: none;
   outline: none !important;
   cursor: pointer;
-  color: var(--header);
+  color: #f4f7f7;
   transition: all 0.4s ease-in-out;
 }
 
@@ -604,7 +619,7 @@ input.main-search-input::placeholder {
   }
 }
 .section-title span {
-  color: var(--theme);
+  color: #fdfdfd; var(--theme);
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 600;
@@ -2128,7 +2143,7 @@ input.main-search-input::placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/img/hero/overlay-shape.jpg);
+  background-image: url(../../assets/img/hero/foto.jpeg);
   width: 50%;
   z-index: -1;
 }
@@ -2159,7 +2174,7 @@ input.main-search-input::placeholder {
 }
 .hero-2 .hero-content h1 {
   font-size: 100px;
-  color: var(--theme);
+  color: #eff5f5;
   margin-bottom: 20px;
 }
 @media (max-width: 1399px) {
@@ -5091,7 +5106,7 @@ input.main-search-input::placeholder {
   color: var(--text);
 }
 .shop-items .shop-content .price h4 {
-  color: var(--theme);
+  color: #e4ecec; /*var(--theme);*/
 }
 .shop-items .shop-content .title {
   margin-top: 25px;
@@ -6047,7 +6062,7 @@ input.main-search-input::placeholder {
 }
 
 .cta-banner-wrapper-2 {
-  background-color: var(--theme);
+  background-color: #abe6e3; /*var(--theme);*/
   border-radius: 5px;
   padding: 75px 60px;
   position: relative;
@@ -8290,7 +8305,7 @@ p.sticky-label {
   transition: all 0.4s ease-in-out;
 }
 .portfolio-wrapper-2 .portfolio-content .content p {
-  color: var(--theme);
+  color: #edf7f6; /*var(--theme);*/
   transition: all 0.4s ease-in-out;
 }
 .portfolio-wrapper-2 .portfolio-content h3 a {

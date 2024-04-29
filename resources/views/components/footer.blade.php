@@ -10,7 +10,7 @@
                     <div class="single-footer-widget">
                         <div class="widget-head">
                             <a href="index.html">
-                                <img src="assets/img/logo/footer-logo.svg" alt="logo-img">
+                                <img src="{{ asset('assets/img/logo/footer-logo.svg')}}" alt="logo-img">
                             </a>
                         </div>
                         <div class="footer-content">
@@ -107,15 +107,15 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h3>Contact</h3>
+                            <h3>INFORMACION</h3>
                         </div>
                         <div class="footer-content">
-                            <div class="footer-input style-two mb-4">
+                            <!--<div class="footer-input style-two mb-4">
                                 <input type="email" id="email2" placeholder="Your mail address">
                                 <button class="newsletter-btn" type="submit">
                                     <i class="fab fa-telegram-plane"></i>
                                 </button>
-                            </div>
+                            </div>-->
                             <div class="contact-info-area">
                                 <div class="contact-items">
                                     <div class="icon">
@@ -123,7 +123,7 @@
                                     </div>
                                     <div class="content">
                                         <p>Direccion</p>
-                                        <h4>66 Broklyant,New India</h4>
+                                        <h4>Zona Villa Esperanza Av. Sucre B - Edificio Torre A </h4>
                                     </div>
                                 </div>
                                 <div class="contact-items">
@@ -132,7 +132,7 @@
                                     </div>
                                     <div class="content">
                                         <p>Numero de telefono</p>
-                                        <h4><a href="tel:0123456789101">012 345 678 9101</a></h4>
+                                        <h4><a href="tel:0123456789101">67159697</a></h4>
                                     </div>
                                 </div>
                             </div>

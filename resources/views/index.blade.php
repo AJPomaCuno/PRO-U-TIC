@@ -13,23 +13,23 @@
         <!--<< Favicon >>-->
         <link rel="shortcut icon" href="{{ asset('assets/img/favicon.svg')}}">
         <!--<< Bootstrap min.css >>-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
         <!--<< Font Awesome.css >>-->
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css')}}">
         <!--<< Animate.css >>-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/animate.css')}}">
         <!--<< Magnific Popup.css >>-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
         <!--<< MeanMenu.css >>-->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css')}}">
         <!--<< Swiper Bundle.css >>-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css')}}">
         <!--<< Nice Select.css >>-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css')}}">
         <!--<< Main.css >>-->
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="{{ asset('assets/css/main.css')}}">
         <!--<< Style.css >>-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ asset('style.css')}}">
     </head>
 
     <body class="background-black">
@@ -164,6 +164,7 @@
 
         <!-- Header Area Start -->
        @include('components.header')
+s
 
         <!-- Search Area Start -->
         <div class="search-wrap">
@@ -180,7 +181,7 @@
         </div>
 
         <!-- Hero Section Start -->
-        <section class="hero-section hero-2 bg-cover" style="background-image: url('assets/img/hero/hero-bg-2.jpg');">
+        <section class="hero-section hero-2 bg-cover" style="background-image: url('assets/img/hero/01.jpeg');">
             <div class="line">
                 <img src="assets/img/hero/line.png" alt="img">
             </div>
@@ -201,18 +202,18 @@
                     <div class="col-lg-10">
                         <div class="hero-content">
                             <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                                <span>Unidad de Tecnologias de</span> INFORMACION Y COMUNICACION
+                                <span>UNIDAD DE TECNOLOGÍA DE</span> INFORMACIÓN Y COMUNICACIÓN
                             </h1>
                             <p class="wow fadeInUp" data-wow-delay=".5s">INNOVANDO SERVICIOS TECNOLOGICOS PARA NUESTRA COMUNIDAD UNIVERSITARIA</p>
-                            <a href="about.html" class="theme-btn padding-style wow fadeInUp" data-wow-delay=".7s">
-                                Read More
+                            <a href="#administrativo" class="theme-btn padding-style wow fadeInUp" data-wow-delay=".7s">
+                                ADMINISTRATIVO
                                 <i class="fas fa-long-arrow-right"></i>
                             </a>
                             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".9s">
-                                <a href="https://www.facebook.com/sieupea"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="https://www.facebook.com/sieupea" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://bo.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -221,171 +222,10 @@
         </section>
 
         <!-- About Section Start -->
-        <section class="about-section fix section-padding" id="upea">
-            <div class="container">
-                <div class="about-wrapper-2">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="about-content">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp"></span>
-                                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                                        UNIVERSIDAD PUBLICA <br>  DE EL ALTO
-                                    </h2>
-                                </div>
-                                <p class="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit torquent nu nascetu cubilia tempor lacus natoque quis auctor mattis luctus varius pretium aptent urna iaculis suspendisse eros egestas mollis dis nisl commodo.
-                                </p>
-                                <div class="progress-wrap">
-                                    <div class="pro-items wow fadeInUp" data-wow-delay=".7s">
-                                        <div class="pro-head">
-                                            <h6 class="title">
-                                                Interior Design
-                                            </h6>
-                                            <span class="point">
-                                                75%
-                                            </span>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-value"></div>
-                                        </div>
-                                    </div>
-                                    <div class="pro-items wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="pro-head">
-                                            <h6 class="title">
-                                                Renovation
-                                            </h6>
-                                            <span class="point">
-                                                55%
-                                            </span>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-value style-two"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="https://www.upea.bo/" class="theme-btn bg-transparent text-white padding-style wow fadeInUp" target="_blank" data-wow-delay=".9s">VISITAR</a>
-
-                                    <i class="fas fa-long-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 mt-5 mt-lg-0 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="about-image bg-cover" style="background-image: url('assets/img/about/upea3.jpg');">
-                                <div class="line-shape float-bob-y">
-                                    <img src="assets/img/about/upea.jpg" alt="shape-img">
-                                </div>
-                                <div class="counter-shape float-bob-y">
-                                    <h3><span class="count">10</span>k+</h3>
-                                    <p>Clients</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      @include('components.utic_sie')
 
         <!-- Service Section Start documentos-->
-        <section class="service-section-2 fix section-padding pt-0" id="documentos">
-            <div class="container">
-                <div class="section-title-area">
-                   <div class="section-title">
-                        <span class="wow fadeInUp">Latest Service</span>
-                        <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                            DOCUMENTOS U-TIC <br> UPEA
-                        </h2>
-                   </div>
-                    <p class="text-white wow fadeInUp" data-wow-delay=".5s">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit torquent <br> nu nascetuLorem ipsum dolor sit amet consectetur adipiscing <br>elit torquent nu nascetu cubilia temporLorem ipsum dolor sit <br> amet consectetur adipiscing elit torquent
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="service-box-items">
-                            <div class="icon">
-                                <i class=""></i>                               
-                            </div>
-                            <div class="content">
-                                <h3>
-                                    <a href="documentos/examen_serv.pdf" download="examen_serv.pdf" class="boton-descarga">
-                                        <img src="imagenes/ico_pdf.png" alt="img">
-                                        PRUEBA</a>
-                                </h3>
-                                <a href="documentos/examen_serv.pdf" download="examen_serv.pdf" class="link-btn">
-                                    DESCARGAR <i class="fas fa-long-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="service-box-items">
-                            <div class="icon">
-                                <i class="flaticon-frame-1"></i>                                  
-                            </div>
-                            <div class="content">
-                                <h3>
-                                    <a href="service-details-html">Dream Home Designs</a>
-                                </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit torquent nu 
-                                </p>
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Where architecture
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Redefining living
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Transforming houses
-                                    </li>
-                                </ul>
-                                <a href="service-details.html" class="link-btn">
-                                    Read More <i class="fas fa-long-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="service-box-items">
-                            <div class="icon">
-                                <i class="flaticon-dining-room"></i>                             
-                            </div>
-                            <div class="content">
-                                <h3>
-                                    <a href="service-details-html">The Design Studio</a>
-                                </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit torquent nu 
-                                </p>
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Where architecture
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Redefining living
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Transforming houses
-                                    </li>
-                                </ul>
-                                <a href="service-details.html" class="link-btn">
-                                    Read More <i class="fas fa-long-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+       @include('components.documentos')
         <!-- Portfolio Section Start -->
        @include('components.supervisor')
 
@@ -436,7 +276,7 @@
                     <div class="section-title text-center">
                         <span class="wow fadeInUp">work Process</span>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                            Redefining the <br> <span>Interior</span> of living
+                            GALERIA <br> <span>Interior</span> of living
                         </h2>
                     </div>
                     <div class="row">
@@ -503,7 +343,7 @@
         <div class="cta-video">
             <div class="cta-video-wrapper bg-cover" style="background-image: url('assets/img/pri1920.jpg');">
                 <div class="video-box">
-                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                    <a href="https://www.youtube.com/watch?v=7eWIwFFwzZo" class="video-btn ripple video-popup">
                         <i class="fas fa-play"></i>
                     </a>
                 </div>
@@ -598,16 +438,28 @@
             </div>
         </section>
 
-        <!-- Contact Section Start -->
-        <section class="contact-section fix section-padding pt-0" id="contact">
+     
+        <!-- News Section Start -->
+       @include('components.carreras') 
+          <!-- Contact Section Start -->
+          <section class="contact-section fix section-padding pt-0" id="contact">
             <div class="container">
                 <div class="contact-wrapper">
                     <div class="row align-items-center g-0">
                         <div class="col-xl-6">
                             <div class="contact-left">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">Stay Connected</span>
-                                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Create a sanctuary</h2>
+                                    <span class="wow fadeInUp">ATENCION VIRTUAL</span>
+                                    <p>
+                                        Para tramites de matriculación FORM. 01, sistema FORM. 02.
+                                    </p>
+                                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">SOLICITAR ATENCION VIRTUAL</h2>
+                                    <P>
+                                        01. MAE: VERIFICACIÓN DE PROCESO DE ADMISIÓN Y MATRICULACIÓN
+                                    </P>
+                                    <P>
+                                        02. PREFAS: VERIFICACIÓN DE APROBACIÓN DE CERT. MATRICULACIÓN
+                                    </P>
                                 </div>
                                 <form action="#" id="contact-form" method="POST" class="contact-form-items mt-4 mt-md-0">
                                     <div class="row g-4">
@@ -656,7 +508,7 @@
                                         </div>
                                         <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
                                             <button type="submit" class="theme-btn padding-style">
-                                                Book Now <i class="fas fa-long-arrow-right"></i>
+                                               ENVIAR SOLICITUD <i class="fas fa-long-arrow-right"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -671,8 +523,6 @@
             </div>
         </section>
 
-        <!-- News Section Start -->
-       @include('components.carreras') 
 
         <!-- Cta Section Start -->
         <section class="cta-banner-section-2">
@@ -684,17 +534,18 @@
                             <img src="assets/img/circle-border.png" alt="shape-img">
                         </div>
                     </div>
-                    <div class="section-title-area">
+                    <!--<div class="section-title-area">
                         <div class="section-title mb-0">
                             <h2 class="text-white wow fadeInUp" data-wow-delay=".5s">
                                 Crafting spaces that <br> the reflect style
                             </h2>
                         </div>
-                        <a href="about.html" class="theme-btn bg-white padding-style wow fadeInUp" data-wow-delay=".7s">
+                        <a href="#" class="theme-btn bg-white padding-style wow fadeInUp" data-wow-delay=".7s" target="_blank">
                             Get In Touch
                             <i class="fas fa-long-arrow-right"></i>
                         </a>
-                    </div>
+                    </div>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302.61461320619253!2d-68.19401530679583!3d-16.49342945321201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf007fbce719%3A0x96ef234f182cb9cf!2sUnidad%20U-TIC!5e1!3m2!1ses-419!2sbo!4v1713765083926!5m2!1ses-419!2sbo" width="1155" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>

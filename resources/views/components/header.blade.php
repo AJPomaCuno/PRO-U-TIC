@@ -7,7 +7,7 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="index.html" class="header-logo-2">
-                                <img src="assets/img/logo/footer-logo.svg" alt="logo-img">
+                                <img src="{{ asset('assets/img/logo/footer-logo.svg')}}" alt="logo-img">
                            </a>
                         </div>
                         <div class="mean__menu-wrapper">
@@ -24,7 +24,7 @@
                                                     <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-5">
                                                         <div class="col homemenu">
                                                             <div class="homemenu-thumb">
-                                                                <img src="assets/img/header/home-1.jpg" alt="img">
+                                                                <img src="{{ asset('assets/img/header/home-1.jpg')}}" alt="img">
                                                                 <div class="demo-button">
                                                                     <a href="index.html" class="theme-btn">Multi Page</a>
                                                                     <a href="index-one-page.html" class="theme-btn">One Page</a>
@@ -110,7 +110,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#upea">UPEA</a>
+                                            <a href="#u-tic">U-TIC</a>
                                         </li>
                                         <li>
                                             <a href="#documentos">DOCUMENTOS - SIE</a>
@@ -119,7 +119,7 @@
                                             <a href="#paginas">PAGINAS WEBS</a>
                                         </li>
                                         <li>
-                                            <a href="#blog">CARRERAS</a>
+                                            <a href="#carreras">CARRERAS</a>
                                         </li>
                                         <li>
                                             <a href="#contact">ATENCION VIRTUAL</a>
@@ -136,7 +136,7 @@
                             </div>
                             <div class="content">
                                 <p>Solicita tu llamada:</p>
-                                <h4><a href="tel:6295550129">67159697</a></h4>
+                                <h4><a href="https://wa.me/67159697" target="_blank">67159697</a></h4>
                             </div>
                        </div>
                         
