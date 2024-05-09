@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="wow fadeInUp">PERSONAL</span>
-            <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">PLANILLA <br> ADMINISTRATIVA </h2>
+            <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">PERSONAL DE LA <br> U-TIC</h2>
         </div>
         <div class="portfolio-wrapper-2 pt-5">
             <div class="row">
@@ -12,7 +12,7 @@
                             <p>JEFE DE UNIDAD</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING REGIS</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING JUAN REGIS MUÑEZ SIRPA</a>
                         </h3>
                     </div>
                     <div class="portfolio-content wow fadeInUp" data-wow-delay=".5s">
@@ -20,7 +20,7 @@
                             <p>AREA DE DESARROLLO</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING WILZON</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING WILZON RENE GONZALES SANCHEZ </a>
                         </h3>
                     </div>
                     <div class="portfolio-content wow fadeInUp" data-wow-delay=".7s">
@@ -28,7 +28,7 @@
                             <p>AREA DE DATA CENTER</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING SANTOS</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING SANTOS AURELIO LIMACHI HUANCA</a>
                         </h3>
                     </div>
                     <div class="portfolio-content wow fadeInUp" data-wow-delay=".9s">
@@ -36,23 +36,39 @@
                             <p>AREA DE REDES LAN</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING MARCIAL</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING MARCIAL FERNANDEZ CACHI</a>
                         </h3>
                     </div>
                     <div class="portfolio-content wow fadeInUp" data-wow-delay=".9s">
                         <div class="content">
-                            <p>AREA DE SOPORTE</p>
+                            <p>AREA DE SOPORTE Y MANTENIMIENTO</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING EDYR</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING EDYR ELISBAN CRUZ CALLISAYA</a>
                         </h3>
                     </div>
                     <div class="portfolio-content wow fadeInUp" data-wow-delay=".9s">
                         <div class="content">
-                            <p>AREA DE REDEDES WAN</p>
+                            <p>AREA DE REDES WAN</p>
                         </div>
                         <h3>
-                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/rack.png')}}">ING LUIS</a>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/inges.png')}}">ING LUIS ANGEL MAMANI VILLCA</a>
+                        </h3>
+                    </div>
+                    <div class="portfolio-content wow fadeInUp" data-wow-delay=".9s">
+                        <div class="content">
+                            <p>SEGURIDAD DE SOFTWARE</p>
+                        </div>
+                        <h3>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/inges.png')}}">ING GABRIELA LUQUE ARTEAGA</a>
+                        </h3>
+                    </div>
+                    <div class="portfolio-content wow fadeInUp" data-wow-delay=".9s">
+                        <div class="content">
+                            <p>PROGRAMADOR DE SOFTWARE</p>
+                        </div>
+                        <h3>
+                            <a href="project-details.html" class="changeImage2 wow fadeInUp pt-0 clicked" data-image="{{ asset('assets/img/portfolio/inges.png')}}">ING JHONNY APAZA CHAMBI</a>
                         </h3>
                     </div>
                 </div>

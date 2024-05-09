@@ -7,14 +7,14 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="index.html" class="header-logo-2">
-                                <img src="{{ asset('assets/img/logo/footer-logo.svg')}}" alt="logo-img">
+                                <img src="{{ asset('assets/img/logo/logotipo3.png')}}" alt="logo-img">
                            </a>
                         </div>
                         <div class="mean__menu-wrapper">
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-dropdown active menu-thumb">
+                                        {{-- <li class="has-dropdown active menu-thumb">
                                             <a href="{{ route('index') }}">
                                             INICIO
                                             <i class="fas fa-angle-down"></i>
@@ -108,15 +108,15 @@
                                                 <li><a href="index-4.html">Home 04</a></li>
                                                 <li><a href="index-5.html">Home 05</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="#u-tic">U-TIC</a>
                                         </li>
                                         <li>
-                                            <a href="#documentos">DOCUMENTOS - SIE</a>
+                                            <a href="#documentos">DOCUMENTOS</a>
                                         </li>
                                         <li>
-                                            <a href="#paginas">PAGINAS WEBS</a>
+                                            <a href="#paginas">PAGINAS</a>
                                         </li>
                                         <li>
                                             <a href="#carreras">CARRERAS</a>

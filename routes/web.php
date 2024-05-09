@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
     return view('index');
@@ -19,8 +20,11 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/rotating-image', function () {
+// Route::get('/rotating-image', function () {
 
-    return view('rotating-image');
+//     return view('rotating-image');
 
-})->name('rotating-image');
+// })->name('rotating-image');
+Route::get('/admin' , [AdminController::class, 'index'])->name('index.admin');
+
+Route::post('request/submit', [RequestController::class, 'submitRequest'])->name('request.submit');

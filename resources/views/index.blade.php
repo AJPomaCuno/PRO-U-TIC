@@ -87,6 +87,8 @@
         </div>
 
         <!-- Offcanvas Area Start -->
+    <div class="cta-three__bg general-img">
+
         <div class="fix-area">
             <div class="offcanvas__info">
                 <div class="offcanvas__wrapper">
@@ -164,7 +166,7 @@
 
         <!-- Header Area Start -->
        @include('components.header')
-s
+
 
         <!-- Search Area Start -->
         <div class="search-wrap">
@@ -180,17 +182,17 @@ s
             </div>
         </div>
 
-        <!-- Hero Section Start -->
+        {{-- {{-- <!-- Hero Section Start -->
         <section class="hero-section hero-2 bg-cover" style="background-image: url('assets/img/hero/01.jpeg');">
-            <div class="line">
+            {{-- <div class="line">
                 <img src="assets/img/hero/line.png" alt="img">
-            </div>
-            <div class="star-shape">
+            </div> --}}
+            {{-- <div class="star-shape">
                 <img src="assets/img/hero/star.png" alt="shape-img">
             </div>
             <div class="star-shape-2">
                 <img src="assets/img/hero/star-2.png" alt="shape-img">
-            </div>
+            </div> 
             <div class="text">
                 <p>
                     AREA DE DESARROLLO DE SISTEMAS DE INFORMACION, AREA DE INFRAESTRUCTURA TECNOLOGICA,
@@ -219,7 +221,31 @@ s
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+        <section class="hero-section hero-nuevo bg-cover">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="hero-content">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s" style="color: white">
+                      <span>UNIDAD DE TECNOLOGÍAS DE</span> INFORMACIÓN Y COMUNICACIÓNES
+                    </h1>
+                    <p class="wow fadeInUp" data-wow-delay=".5s">INNOVANDO SERVICIOS TECNOLÓGICOS PARA NUESTRA COMUNIDAD UNIVERSITARIA</p>
+                    <a href="#administrativo" class="theme-btn padding-style wow fadeInUp" data-wow-delay=".7s">
+                      ADMINISTRATIVO
+                      <i class="fas fa-long-arrow-right"></i>
+                    </a>
+                    <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".9s">
+                      <a href="https://www.facebook.com/sieupea" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://bo.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
         <!-- About Section Start -->
       @include('components.utic_sie')
@@ -237,27 +263,27 @@ s
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="brand-image">
-                                    <img src="assets/img/brand/01.png" alt="img">
+                                    <img src="assets/img/brand/1.png" alt="img" class="tic_logos">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-image">
-                                    <img src="assets/img/brand/02.png" alt="img">
+                                    <img src="assets/img/brand/2.png" alt="img" class="tic_logos">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-image">
-                                    <img src="assets/img/brand/03.png" alt="img">
+                                    <img src="assets/img/brand/3.png" alt="img" class="tic_logos">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-image">
-                                    <img src="assets/img/brand/04.png" alt="img">
+                                    <img src="assets/img/brand/4.png" alt="img" class="tic_logos">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-image">
-                                    <img src="assets/img/brand/05.png" alt="img">
+                                    <img src="assets/img/brand/5.png" alt="img" class="tic_logos">
                                 </div>
                             </div>
                         </div>
@@ -270,74 +296,7 @@ s
         @include('components.paginas_web')
 
         <!-- Work Process Section Start -->
-        <section class="work-process-section fix section-padding pt-0">
-            <div class="container">
-                <div class="work-process-wrapper">
-                    <div class="section-title text-center">
-                        <span class="wow fadeInUp">work Process</span>
-                        <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                            GALERIA <br> <span>Interior</span> of living
-                        </h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Blueprint Builders</h3>
-                                    <h2 class="number">01</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Artistic Architecture</h3>
-                                    <h2 class="number">02</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Interior scape Design</h3>
-                                    <h2 class="number">03</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Conceptual Spaces</h3>
-                                    <h2 class="number">04</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Inspire Design Group</h3>
-                                    <h2 class="number">05</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                            <div class="work-process-items-2">
-                                <div class="work-process-content">
-                                    <h3>Modern Living Spaces</h3>
-                                    <h2 class="number">06</h2>
-                                    <p>This category focuses on the design construction of buildings and the arrangement</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('components.galeria')
 
         <!-- Cta Video Section Start -->
         <div class="cta-video">
@@ -355,7 +314,7 @@ s
             <div class="container">
                 <div class="section-title text-center">
                     <span class="wow fadeInUp">Our Creative Team Member</span>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Style and Redefining <br> concept of living</h2>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">CONFERENCIAS <br> concept of living</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
@@ -442,87 +401,9 @@ s
         <!-- News Section Start -->
        @include('components.carreras') 
           <!-- Contact Section Start -->
-          <section class="contact-section fix section-padding pt-0" id="contact">
-            <div class="container">
-                <div class="contact-wrapper">
-                    <div class="row align-items-center g-0">
-                        <div class="col-xl-6">
-                            <div class="contact-left">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp">ATENCION VIRTUAL</span>
-                                    <p>
-                                        Para tramites de matriculación FORM. 01, sistema FORM. 02.
-                                    </p>
-                                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">SOLICITAR ATENCION VIRTUAL</h2>
-                                    <P>
-                                        01. MAE: VERIFICACIÓN DE PROCESO DE ADMISIÓN Y MATRICULACIÓN
-                                    </P>
-                                    <P>
-                                        02. PREFAS: VERIFICACIÓN DE APROBACIÓN DE CERT. MATRICULACIÓN
-                                    </P>
-                                </div>
-                                <form action="#" id="contact-form" method="POST" class="contact-form-items mt-4 mt-md-0">
-                                    <div class="row g-4">
-                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                            <div class="form-clt">
-                                                <input type="text" name="name" id="name" placeholder="Your Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                            <div class="form-clt">
-                                                <input type="text" name="email" id="email" placeholder="Your Email">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                            <div class="form-clt">
-                                                <input type="text" name="number" id="number" placeholder="Phone Number">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                            <div class="form-clt">
-                                                <div class="nice-select" tabindex="0">
-                                                   <span class="current">
-                                                     Choose Services
-                                                   </span>
-                                                    <ul class="list">
-                                                        <li data-value="1" class="option selected focus">
-                                                            Default sorting
-                                                        </li>
-                                                        <li data-value="1" class="option">
-                                                            Sort by popularity
-                                                        </li>
-                                                        <li data-value="1" class="option">
-                                                            Sort by average rating
-                                                        </li>
-                                                        <li data-value="1" class="option">
-                                                            Sort by latest
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
-                                            <div class="form-clt">
-                                                <textarea name="message" id="message" placeholder="Message here.."></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
-                                            <button type="submit" class="theme-btn padding-style">
-                                               ENVIAR SOLICITUD <i class="fas fa-long-arrow-right"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 mt-5 mt-xl-0">
-                            <div class="contact-image bg-cover" style="background-image: url('assets/img/utic.jpg');"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+       {{-- @include('components.contacto') --}}
+          
+           
 
         <!-- Cta Section Start -->
         <section class="cta-banner-section-2">
@@ -552,6 +433,7 @@ s
 
         <!-- Footer Section Start -->
         @include('components.footer')
+    </div>
 
         <!--<< All JS Plugins >>-->
         <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>

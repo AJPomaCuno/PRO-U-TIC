@@ -1,8 +1,8 @@
 <!-- Footer Section Start -->
 <footer class="footer-section section-bg-2">
-    <div class="shape-img">
+    {{-- <div class="shape-img">
         <img src="assets/img/footer-shape.png" alt="shape-img">
-    </div>
+    </div> --}}
     <div class="container">
         <div class="footer-widgets-wrapper style-2">
             <div class="row">
